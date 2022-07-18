@@ -14,7 +14,7 @@ import com.devsuperior.dsmeta.services.SaleService;
 import com.devsuperior.dsmeta.services.SmsService;
 
 @RestController
-@RequestMapping(value="/sales")
+@RequestMapping(value = "/sales")
 public class SaleController {
     
 	@Autowired
